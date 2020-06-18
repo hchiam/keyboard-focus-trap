@@ -18,8 +18,8 @@
 cat keyboard-focus-trap.js | openssl dgst -sha384 -binary | openssl base64 -A
 ```
 
-## Inspiration for this
+## Inspirations for this
 
-<https://github.com/udacity/ud891/tree/9c43eae0e158718703d96ab96f8b2999f69272b2/lesson2-focus/07-modals-and-keyboard-traps/solution>
+- <https://github.com/udacity/ud891/tree/9c43eae0e158718703d96ab96f8b2999f69272b2/lesson2-focus/07-modals-and-keyboard-traps/solution>
 
-<https://gomakethings.com/how-to-get-the-first-and-last-focusable-elements-in-the-dom>
+- <https://gomakethings.com/how-to-get-the-first-and-last-focusable-elements-in-the-dom>
