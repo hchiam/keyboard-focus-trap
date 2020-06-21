@@ -15,7 +15,7 @@
 ```
 
 ```bash
-cat keyboard-focus-trap.js | openssl dgst -sha384 -binary | openssl base64 -A
+echo sha384-$(cat keyboard-focus-trap.js | openssl dgst -sha384 -binary | openssl base64 -A)
 ```
 
 ## Inspirations for this
