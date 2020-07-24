@@ -1,9 +1,9 @@
-function setUpKeyboardFocusTrap(modalElement) {
+function setUpKeyboardFocusTrap(modalElement, customTabStop) {
   // Note: display modal before calling setUpKeyboardFocusTrap(modal);
   var focusableElements = modalElement.querySelectorAll(
     'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex]:not([tabindex="-1"]), [contenteditable]'
   );
-  var firstTabStop = focusableElements[0];
+  var firstTabStop = customTabStop || focusableElements[0];
   var lastTabStop = focusableElements[focusableElements.length - 1];
   firstTabStop.focus();
   modalElement.addEventListener("keydown", trapTabKey);
