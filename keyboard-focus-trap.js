@@ -3,10 +3,11 @@ function setUpKeyboardFocusTrap(modalElement, customTabStop) {
   var focusableElements = modalElement.querySelectorAll(
     'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex]:not([tabindex="-1"]), [contenteditable]'
   );
-  var firstTabStop = customTabStop || focusableElements[0];
+  var startingTabStop = customTabStop || focusableElements[0];
+  var firstTabStop = focusableElements[0];
   var lastTabStop = focusableElements[focusableElements.length - 1];
-  if (!firstTabStop) return; // no sub-elements to focus on
-  firstTabStop.focus();
+  if (!customTabStop && focusableElements.length === 0) return; // no sub-elements to focus on
+  startingTabStop.focus();
   modalElement.addEventListener("keydown", trapTabKey);
   function trapTabKey(event) {
     var hitTab = (event.keyCode || event.which) === 9;
