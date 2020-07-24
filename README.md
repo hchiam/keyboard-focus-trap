@@ -1,6 +1,6 @@
 # Keyboard focus trap (especially useful for modals)
 
-![version](https://img.shields.io/github/release/hchiam/keyboard-focus-trap?style=flat-square) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/hchiam/keyboard-focus-trap/blob/master/LICENSE) [![HitCount](http://hits.dwyl.com/hchiam/keyboard-focus-trap.svg)](http://hits.dwyl.com/hchiam/keyboard-focus-trap)
+[![version](https://img.shields.io/github/release/hchiam/keyboard-focus-trap?style=flat-square)](https://github.com/hchiam/keyboard-focus-trap/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/hchiam/keyboard-focus-trap/blob/master/LICENSE) [![HitCount](http://hits.dwyl.com/hchiam/keyboard-focus-trap.svg)](http://hits.dwyl.com/hchiam/keyboard-focus-trap)
 
 [Live demo](https://codepen.io/hchiam/pen/NWxbBdr)
 
