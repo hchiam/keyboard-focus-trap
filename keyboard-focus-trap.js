@@ -5,6 +5,7 @@ function setUpKeyboardFocusTrap(modalElement, customTabStop) {
   );
   var firstTabStop = customTabStop || focusableElements[0];
   var lastTabStop = focusableElements[focusableElements.length - 1];
+  if (!firstTabStop) return; // no sub-elements to focus on
   firstTabStop.focus();
   modalElement.addEventListener("keydown", trapTabKey);
   function trapTabKey(event) {
