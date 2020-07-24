@@ -15,7 +15,7 @@ modalToggle.addEventListener("click", function openModal() {
   modal.style.display = "block";
   modalOverlay.style.display = "block";
 
-  setUpKeyboardFocusTrap(modal);
+  setUpKeyboardFocusTrap(modal, document.getElementById("email"));
 });
 
 function closeModal() {

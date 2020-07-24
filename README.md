@@ -9,7 +9,7 @@
 ```html
 <script
   src="https://cdn.jsdelivr.net/gh/hchiam/keyboard-focus-trap@1.0.0/keyboard-focus-trap.js"
-  integrity="sha384-flnsTp4gtM0iXBdgKW0wdjZ7GMqxm8vTvQKKSgF/9SD+6oyJOvgX8zmuz1MdzZHj"
+  integrity="sha384-5PnYzry1hKZM375/B2mrZCP6CiJ5rt7ed+J5B3t0U/MZ2NjRU2S/O7bKhNwF06hX"
   crossorigin="anonymous"
 ></script>
 ```
