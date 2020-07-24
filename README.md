@@ -8,7 +8,7 @@
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/hchiam/keyboard-focus-trap@1.0.0/keyboard-focus-trap.js"
+  src="https://cdn.jsdelivr.net/gh/hchiam/keyboard-focus-trap@1.1.0/keyboard-focus-trap.js"
   integrity="sha384-5PnYzry1hKZM375/B2mrZCP6CiJ5rt7ed+J5B3t0U/MZ2NjRU2S/O7bKhNwF06hX"
   crossorigin="anonymous"
 ></script>
