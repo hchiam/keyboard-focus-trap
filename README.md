@@ -23,3 +23,9 @@ bash get-integrity.sh
 - <https://github.com/udacity/ud891/tree/9c43eae0e158718703d96ab96f8b2999f69272b2/lesson2-focus/07-modals-and-keyboard-traps/solution>
 
 - <https://gomakethings.com/how-to-get-the-first-and-last-focusable-elements-in-the-dom>
+
+## Caveat/gotcha
+
+<https://stackoverflow.com/questions/44452084/how-to-keep-focus-within-modal-dialog/44481275#44481275>
+
+May not work well with web components and shadow DOM, but can be overcome with custom code.
