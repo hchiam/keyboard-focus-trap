@@ -24,4 +24,8 @@ function setUpKeyboardFocusTrap(modalElement, customTabStop) {
       }
     }
   }
+  modalElement.addEventListener("blur", function (event) {
+    event.preventDefault();
+    firstTabStop.focus();
+  });
 }
