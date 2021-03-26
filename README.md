@@ -8,8 +8,8 @@
 
 ```html
 <script
-  src="https://cdn.jsdelivr.net/gh/hchiam/keyboard-focus-trap@1.1.0/keyboard-focus-trap.js"
-  integrity="sha384-5PnYzry1hKZM375/B2mrZCP6CiJ5rt7ed+J5B3t0U/MZ2NjRU2S/O7bKhNwF06hX"
+  src="https://cdn.jsdelivr.net/gh/hchiam/keyboard-focus-trap@1.2.0/keyboard-focus-trap.js"
+  integrity="sha384-X4CXOjFm0n6iwt8qEFOvwsXLyZonS799Q47YRuZPFQOTUHXkGlV9kXsbjpZ1S3rm"
   crossorigin="anonymous"
 ></script>
 ```
